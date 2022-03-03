@@ -1,0 +1,356 @@
+/* Font */
+@font-face {
+font-family: 'vw-head-regular';
+font-weight: 400;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'vw-head-bold';
+font-weight: 700;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'vw-head-light';
+font-weight: 200;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'vw-text-regular';
+font-weight: 400;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-regular.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'vw-text-bold';
+font-weight: 700;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff') format('woff');
+}
+
+
+.spooky-h1, .spooky-h2, .spooky-h3, .spooky-h4, .spooky-h5, .spooky-h6 {
+font-family: 'vw-head-bold';
+font-weight: 700;
+line-height: 1.2;
+}
+
+.spooky-h1 {
+font-size: 2rem;
+}
+
+.spooky-h2 {
+font-size: 1.8rem;
+}
+
+.spooky-h3 {
+font-size: 1.6rem;
+}
+
+.spooky-h4 {
+font-size: 1.4rem;
+}
+
+.spooky-h5 {
+font-size: 1.2rem;
+}
+
+.spooky-h6 {
+font-size: 1.1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 575px) {
+.spooky-h1 {
+font-size: 2.5rem !important;
+}
+
+.spooky-h2 {
+font-size: 2.2rem !important;
+}
+
+.spooky-h3 {
+font-size: 1.8rem !important;
+}
+
+.spooky-h4 {
+font-size: 1.6rem !important;
+}
+
+.spooky-h5 {
+font-size: 1.4rem !important;
+}
+
+.spooky-h6 {
+font-size: 1.2rem !important;
+}
+}
+
+
+.spooky-wrapper { 
+font-family: "vw-text-regular", sans-serif;
+}
+
+.spooky-bold {
+font-family: var(--bold-font);   
+font-weight: 700;
+}
+
+
+/* Variables */
+.spooky-wrapper {
+--accent: #071E50;
+--accent2: #0039b9;
+--accent3: #001E50;
+--accent4: #1F4092;
+--accent5: #112d67;
+--accent6: #1f385c;
+--accent7: #20c0ef;
+--accent8: #294266;
+--black: #000000; 
+--white: #ffffff; 
+--gray: #6A767D; 
+--gray2: #f1f3f4;
+--dark: #252525; 
+--dark2: #333333;
+--bold-font: "vw-text-bold", sans-serif;
+}
+
+
+/* Text Colors */
+.spooky-black {
+color: var(--black)
+}
+.spooky-white {
+color: var(--white)
+}
+.spooky-gray {
+color: var(--gray)
+}
+.spooky-gray2 {
+color: var(--gray2)
+}
+.spooky-dark {
+color: var(--dark)
+}
+.spooky-dark2 {
+color: var(--dark2)
+}
+
+
+/* Accent Colors */
+.spooky-accent {
+color: var(--accent)
+}
+.spooky-accent2 {
+color: var(--accent2)
+}
+.spooky-accent3 {
+color: var(--accent3)
+}
+.spooky-accent4 {
+color: var(--accent4)
+}
+.spooky-accent4 {
+color: var(--accent4)
+}
+.spooky-accent5 {
+color: var(--accent5)
+}
+.spooky-accent6 {
+color: var(--accent6)
+}
+.spooky-accent7 {
+color: var(--accent7)
+}
+
+
+
+/* BG Colors */
+.spooky-bg-accent {
+background-color: var(--accent)
+}
+.spooky-bg-accent2 {
+background-color: var(--accent2)
+}
+.spooky-bg-accent3 {
+background-color: var(--accent3)
+}
+.spooky-bg-accent4 {
+background-color: var(--accent4)
+}
+.spooky-bg-accent5 {
+background-color: var(--accent5)
+}
+.spooky-bg-accent6 {
+background-color: var(--accent6)
+}
+.spooky-bg-accent7 {
+background-color: var(--accent7)
+}
+.spooky-bg-gray {
+background-color: var(--gray)
+}
+.spooky-bg-gray2 {
+background-color: var(--gray2)
+}
+.spooky-bg-dark {
+background-color: var(--dark)
+}
+.spooky-bg-dark2 {
+background-color: var(--dark2)
+}
+
+
+
+
+/* Link Accent */
+.spooky-link-accent {
+text-decoration: underline;
+color: var(--accent);
+}
+.spooky-link-accent:hover {
+color: var(--accent2) !important; 
+}
+
+.spooky-link-accent2 {
+text-decoration: none;
+color: var(--accent);
+}
+.spooky-link-accent2:hover {
+background-color: var(--gray2) !important; 
+}
+
+
+
+/* BUTTONS: START */
+/* Button 1 */
+.spooky-button {
+background-color: var(--accent);
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--white);
+text-decoration: none;
+padding: 16px;
+border: 2px solid var(--accent);
+line-height: 1;
+text-transform: uppercase;
+font-size: .8125rem;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.spooky-button:hover {
+background-color: var(--accent2);
+color: var(--white);
+border: 2px solid var(--accent2);
+}
+
+/* Button 2 */
+.spooky-button2 {
+background-color: transparent;
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--accent);
+text-decoration: none;
+padding: 16px;
+border: 2px solid;
+line-height: 1;
+text-transform: uppercase;
+font-size: .8125rem;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.spooky-button2:hover {
+background-color: transparent;
+color: var(--accent2)
+}
+
+/* Button 3 */
+.spooky-button3 {
+background-color: transparent;
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--accent6);
+text-decoration: none;
+padding: 16px;
+border: 2px solid;
+line-height: 1;
+text-transform: uppercase;
+font-size: .8125rem;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.spooky-button3:hover {
+background-color: var(--gray2);
+color: var(--accent6)
+}
+
+/* Button 4 */
+.spooky-button4 {
+background-color: var(--accent);
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--white);
+text-decoration: none;
+padding: 16px;
+border: 2px solid var(--accent);
+line-height: 1;
+text-transform: uppercase;
+font-size: .8125rem;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.spooky-button4:hover {
+background-color: var(--accent8);
+color: var(--white);
+border: 2px solid var(--accent8);
+}
+
+/* Button 5 */
+.spooky-button5 {
+background-color: var(--white);
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--accent);
+text-decoration: none;
+padding: 16px;
+border: 2px solid var(--white);
+line-height: 1;
+text-transform: uppercase;
+font-size: .8125rem;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.spooky-button5:hover {
+background-color: var(--white);
+color: var(--accent8)
+}
+
+/* Button 6 */
+.spooky-button6 {
+background-color: var(--white);
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--accent);
+text-decoration: none;
+padding: 16px;
+border: 2px solid var(--white);
+line-height: 1;
+text-transform: uppercase;
+font-size: .8125rem;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.spooky-button6:hover {
+background-color: var(--accent7);
+border: 2px solid var(--accent7);
+color: var(--accent8)
+}
+/* BUTTONS: END */
